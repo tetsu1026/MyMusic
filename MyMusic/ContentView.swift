@@ -9,8 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+          //背景画像を指定する
+          Image("background")
+            //リサイズする
+            .resizable()
+            //アスペクト比(縦横比)を維持して短辺基準に収まるようにする
+            .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+            HStack {
+                //シンバルボタン
+                Button(action: {
+                    //ボタンをタップした時のアクション
+                }) {
+                    //画像を表示する
+                    Image("cymbal")
+                         //ボタン内の画像がカラーになるように指定する
+                        .renderingMode(.original)
+                } //シンバルここまで
+                
+                //ギターボタン
+                Button(action: {
+                    //ボタンをタップした時のアクション
+                }) {
+                    //画像を表示する
+                    Image("guitar")
+                         //ボタン内の画像がカラーになるように指定する
+                        .renderingMode(.original)
+                } //ギターボタンここまで
+            }
+        } //zstockここまで
     }
 }
 
