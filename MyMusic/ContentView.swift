@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    // 音を鳴らすためのsoundplayerクラスのインスタンスを生成
+    let soundPlayer = SoundPlayer()
     var body: some View {
         ZStack {
           //背景画像を指定する
@@ -20,6 +22,8 @@ struct ContentView: View {
                 //シンバルボタン
                 Button(action: {
                     //ボタンをタップした時のアクション
+                    //シンバルの音を鳴らす
+                    soundPlayer.cymbalPlay()
                 }) {
                     //画像を表示する
                     Image("cymbal")

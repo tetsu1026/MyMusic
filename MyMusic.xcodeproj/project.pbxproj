@@ -11,6 +11,7 @@
 		6112966425E6082E006AC1EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112966325E6082E006AC1EA /* ContentView.swift */; };
 		6112966625E60834006AC1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6112966525E60834006AC1EA /* Assets.xcassets */; };
 		6112966925E60834006AC1EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6112966825E60834006AC1EA /* Preview Assets.xcassets */; };
+		6112967225E6141B006AC1EA /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112967125E6141B006AC1EA /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6112966525E60834006AC1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6112966825E60834006AC1EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6112966A25E60834006AC1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6112967125E6141B006AC1EA /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				6112966125E6082D006AC1EA /* MyMusicApp.swift */,
 				6112966325E6082E006AC1EA /* ContentView.swift */,
 				6112966525E60834006AC1EA /* Assets.xcassets */,
+				6112967125E6141B006AC1EA /* SoundPlayer.swift */,
 				6112966A25E60834006AC1EA /* Info.plist */,
 				6112966725E60834006AC1EA /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6112966425E6082E006AC1EA /* ContentView.swift in Sources */,
+				6112967225E6141B006AC1EA /* SoundPlayer.swift in Sources */,
 				6112966225E6082D006AC1EA /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
