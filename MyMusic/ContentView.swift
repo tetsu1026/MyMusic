@@ -26,9 +26,7 @@ struct ContentView: View {
                     soundPlayer.cymbalPlay()
                 }) {
                     //画像を表示する
-                    Image("cymbal")
-                         //ボタン内の画像がカラーになるように指定する
-                        .renderingMode(.original)
+                    ButtonImageView(imageName: "cymbal")
                 } //シンバルここまで
                 
                 //ギターボタン
@@ -38,9 +36,7 @@ struct ContentView: View {
                     soundPlayer.guitarPlay()
                 }) {
                     //画像を表示する
-                    Image("guitar")
-                         //ボタン内の画像がカラーになるように指定する
-                        .renderingMode(.original)
+                    ButtonImageView(imageName: "guitar")
                 } //ギターボタンここまで
             }
         } //zstockここまで
